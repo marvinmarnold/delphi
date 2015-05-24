@@ -42,7 +42,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 	float:left;
 }
 #logo {
-	background-image:url(../images/delphi-logo.png);
+	background-image:url(../images/delphi-banner.png);
 	background-repeat:no-repeat;
 	background-position: 20px 0px;
 	min-width:157px;
