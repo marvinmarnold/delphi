@@ -73,24 +73,104 @@
 
     <!-- Our services sections -->
     <div class="row-fluid">
-        <h4 class="section-heading">Services</h4>
+        <h4 class="section-heading">Membership</h4>
     </div>
     <div class="row-fluid">
       <div class="span9">
-        <!-- start grey box -->
-        <div class="row-fluid heading" style="background-color:#f5f5f5;">
-          <div class="span7">
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <form class="form-horizontal">
+        <fieldset>
+          <h3>Payment details</h3>
+          <p>
+          Membership to Delphi is <b>$100</b>. Membership fees are collected to ensure long term sustainability and greater autonomy than can be achieved as a 501(c)3 or similar entity.
+          </p>
+          <br/>
+          <!-- Name -->
+          <div class="control-group">
+            <label class="control-label"  for="username">Card Holder's Name</label>
+            <div class="controls">
+              <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+            </div>
           </div>
-          <div class="span5">
-            <blockquote><p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-            </p></blockquote>
-          </div>
-        </div>
-        <!-- end grey box -->
 
-        <h3>Our services</h3>
+          <!-- Card Number -->
+          <div class="control-group">
+            <label class="control-label" for="email">Card Number</label>
+            <div class="controls">
+              <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+
+          <!-- Expiry-->
+          <div class="control-group">
+            <label class="control-label" for="password">Card Expiry Date</label>
+            <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option></option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>1
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+              <select class="span2" name="expiry_year">
+                <option value="13">2013</option>
+                <option value="14">2014</option>
+                <option value="15">2015</option>
+                <option value="16">2016</option>
+                <option value="17">2017</option>
+                <option value="18">2018</option>
+                <option value="19">2019</option>
+                <option value="20">2020</option>
+                <option value="21">2021</option>
+                <option value="22">2022</option>
+                <option value="23">2023</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- CVV -->
+          <div class="control-group">
+            <label class="control-label"  for="password_confirm">Card CVV</label>
+            <div class="controls">
+              <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="span2">
+            </div>
+          </div>
+
+          <!-- Name -->
+          <div class="control-group">
+            <label class="control-label"  for="reference">Reference number</label>
+            <div class="controls">
+              <input type="text" id="reference" name="reference" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+
+          <!-- Name -->
+          <div class="control-group">
+            <label class="control-label"  for="email">Email</label>
+            <div class="controls">
+              <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+
+          <!-- Submit -->
+          <div class="control-group">
+            <div class="controls">
+              <button class="btn btn-success">Pay Now ($100)</button>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+
+
+        <h3>Benefits</h3>
         <p>uis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
         <div class="row-fluid">
@@ -159,21 +239,10 @@
       </div>
     </div>
     <!-- end section Our services section -->
-    <!-- section services images -->
-    <div class="row-fluid zoom-out hidden-phone hidden-tablet">
-      <ul data-liffect="zoomOut" style="list-style-type: none">
-          <li class="span2"><img src="images/business-22.jpg" alt="Business1" class="img-polaroid"></li>
-          <li class="span2"><img src="images/business-11.jpg" alt="Business1" class="img-polaroid"></li>
-          <li class="span2"><img src="images/business-11.jpg" alt="Business1" class="img-polaroid"></li>
-          <li class="span2"><img src="images/business-33.jpg" alt="Business1" class="img-polaroid"></li>
-          <li class="span2"><img src="images/business-22.jpg" alt="Business1" class="img-polaroid"></li>
-          <li class="span2"><img src="images/business-11.jpg" alt="Business1" class="img-polaroid"></li>
-      </ul>
     </div>
-    <!-- end section services images -->
-
 </div>
-<!-- end main -->
+<!-- Footer -->
+
 <footer id="footer">
 <div class="container">
   <div class="row-fluid">
@@ -223,6 +292,7 @@
     </div>
   </div>
 </footer>
+<!-- End Footer -->
 <!--  javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
